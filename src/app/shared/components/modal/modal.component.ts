@@ -1,3 +1,4 @@
+import { ModalConfig } from './interfaces/modal-config';
 import { Component } from '@angular/core';
 
 @Component({
@@ -5,4 +6,6 @@ import { Component } from '@angular/core';
   templateUrl: './modal.component.html',
   styleUrls: ['modal.component.scss']
 })
-export class ModalComponent {}
+export class ModalComponent {
+  public config: ModalConfig;
+}
